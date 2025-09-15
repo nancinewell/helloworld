@@ -1,3 +1,7 @@
 "use strict";
 
-console.log("Hello, World!");
+function helloWorld() {
+  var body = document.body;
+  body.innerHTML = "Hello, World!";
+  console.log("Hello, World!");
+}
