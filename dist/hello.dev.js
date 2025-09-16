@@ -1,7 +1,7 @@
 "use strict";
 
-function helloWorld() {
-  var body = document.body;
-  body.innerHTML = "Hello, World!";
+(function () {
+  var div = document.getElementById("hello_div");
+  div.innerHTML = "Hello, World!";
   console.log("Hello, World!");
-}
+})();
